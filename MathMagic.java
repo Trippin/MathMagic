@@ -1,0 +1,24 @@
+package mathmagic;
+
+/**
+ *
+ * @author John
+ */
+public class MathMagic {
+
+    // TODO code application logic here
+    public static void main(String[] args) {
+        // My number is the original number
+        int myNumber = 7;
+        int stepOne = myNumber * myNumber;
+        int stepTwo = stepOne + myNumber;
+        int stepThree = stepTwo / myNumber;
+        int stepFour = stepThree + 17;
+        int stepFive = stepFour - myNumber;
+        int stepSix = stepFive / 6;
+
+        System.out.println(stepSix);
+
+    }
+
+}
