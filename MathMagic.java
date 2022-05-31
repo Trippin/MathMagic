@@ -1,9 +1,5 @@
 package mathmagic;
 
-/**
- *
- * @author John
- */
 public class MathMagic {
 
     // TODO code application logic here
